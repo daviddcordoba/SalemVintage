@@ -1,0 +1,25 @@
+@media (max-width:768px) {
+
+    .producto-fila{
+        width: 100% !important;
+        text-align: center ;
+        
+    }
+
+    .row{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        border-radius: 10px;
+    }
+
+    #intro p{
+        font-size: 20px;
+    }
+
+}

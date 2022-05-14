@@ -1,0 +1,28 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+/* Map */
+$colores: (  
+colorPrincipal:pink,
+colorSecundario:  rgb(255, 223, 221) ,
+resaltado: #fc036b
+);
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+    overflow-x: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: map-get($colores, colorSecundario);
+}
+a{
+    text-decoration: none;
+}
+
